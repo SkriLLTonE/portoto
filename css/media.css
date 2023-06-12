@@ -1,0 +1,39 @@
+@media screen and (max-width:992px) {
+    .header__content {
+        padding: 20px 0;
+        height: auto;
+    }
+
+    .header__navbar {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .header__list {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .intro__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about__left {
+        display: none;
+    }
+
+    .portfolio__web {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 15px;
+    }
+
+    .portfolio__sectoion {
+        height: 1500px;
+    }
+
+    .footer__list {
+        flex-wrap: wrap;
+    }
+}
